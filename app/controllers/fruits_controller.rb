@@ -54,7 +54,7 @@ class FruitsController < ApplicationController
       end
     
       def fruit_params
-        params.permit(:name, :image, :price, :availability, :farmer_id, :client_id)
+        params.permit(:name, :image, :price, :availability)
       end
 
       def authorize

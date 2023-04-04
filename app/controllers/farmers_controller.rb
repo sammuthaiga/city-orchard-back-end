@@ -54,7 +54,7 @@ class FarmersController < ApplicationController
       end
     
       def farmer_params
-        params.permit(:name, :image, :email, :phonenumber, :location, :fruit_id)
+        params.permit(:name, :image, :email, :phonenumber, :location)
       end
     
 end
